@@ -1,0 +1,32 @@
+namespace programa_de_idade
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+             // programa de retorno a idade
+
+
+            Console.WriteLine(" digite sua idade");
+            int idade = int.Parse(Console.ReadLine());
+
+            if (idade >= 1 && idade <= 12)
+                Console.WriteLine("voce é uma criança");
+
+
+            else if (idade >= 13 && idade <= 18)
+                Console.WriteLine("  voce é um adolescente");
+
+
+            else if (idade >= 19 && idade <= 60)
+                Console.WriteLine("voce é um adulto");
+
+
+            else
+                Console.WriteLine("voce é um idoso");
+
+
+        }
+    }
+}
